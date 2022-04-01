@@ -1,0 +1,29 @@
+.body1{
+    text-align: center;
+    background-color:#8D3DAF;
+    }
+    
+    .div1{
+        display:flex;
+        text-align: center;
+        justify-content: center;
+ 
+    }
+    .div2{
+        display:flex;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    h1{
+        color:red;
+        font-family:"ravie";
+    
+    }
+    figcaption{
+        color: azure;
+    }
+    img:hover{
+        box-shadow: 5px 5px blanchedalmond;
+    }
+ 

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <script>
+        $(document).ready(function(){
+            $("#sweet").click(function(){
+             $(".sweet, .cake, .cupcake, .donut").show();
+             $(".cake, .cupcake, .donut").css("display","none");
+            });
+            $("#cake").click(function(){
+             $(".sweet, .cake, .cupcake, .donut").show();
+             $(".sweet, .cupcake, .donut").css("display","none");
+            });
+            $("#cupcake").click(function(){
+             $(".sweet, .cake, .cupcake, .donut").show();
+             $(".cake, .sweet, .donut").css("display","none");
+            }); 
+            $("#donut").click(function(){
+             $(".sweet, .cake, .cupcake, .donut").show();
+             $(".cake, .cupcake, .sweet").css("display","none");
+            }); 
+        
+        $("#all").click(function(){
+            $(".sweet, .cake, .cupcake, .donut").show();    
+        }); 
+        $("#myInput").on("keyup",function(){
+                var value=$(this).val().toLowerCase();
+                $("figure").filter(function(){
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value)>-1);
+                });
+            });
+    
+        
+    });
+    </script>
+
+    
+    
+</head>
+<body class="body1">
+        <p><h1>Our Store</h1></p>
+        <div class="outer_div"><br>
+        <button id="all">All</button>
+        <button id="cake">Cakes</button>
+        <button id="cupcake">Cupcakes</button>
+        <button id="sweet">Sweet</button>
+        <button id="donut">Doughnut</button>
+        <br>
+        <br>
+        Search : <input id="myInput" type="text" placeholder="Item...">
+        <br>
+        <br>
+            <div class="div1">
+                <figure  class="sweet">
+                <img src="../images/Sweet1.jfif" width="200" height="200"><br>
+                <figcaption>Sweet</figcaption>
+                </figure>
+                <figure class="cupcake">    
+                <img src="../images/Cupcake1.jfif" width="200" height="200" ><br>
+                <figcaption>Cupcake</figcaption>
+                </figure>
+                <figure class="cake">
+                <img src="../images/Cake.jfif" width="200" height="200" ><br>
+                <figcaption>Cake</figcaption>
+                </figure>
+                </div>
+                
+                <div class=div2> 
+                <figure class="donut">        
+                <img src="../images/Doughnut.jfif" width="200" height="200" ><br>
+                <figcaption>Doughnut</figcaption>
+                </figure>
+                <figure  class="sweet">
+                <img src="../images/Sweet2.jfif" width="200" height="200"> <br>
+                <figcaption>Sweet</figcaption>
+                </figure>
+                <figure class="cupcake">
+                <img src="../images/Cupcake2.jfif" width="200" height="200" ><br>
+                <figcaption>Cupcake</figcaption>
+                </figure>
+                </div>
+        </div>
+        
+    
+</body>
+</html>
+
+
+
+
+
