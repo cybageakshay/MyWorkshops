@@ -1,0 +1,55 @@
+body{
+    background-image: url("Library.jpg");
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    background-color: violet;
+}
+.left-head{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left:10px;
+    font-weight: bold;
+}
+.mid-head{
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+}
+.right-head{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    font-weight: bold;
+}
+
+.middle{
+    border: 1px solid black;
+    background-color: white;
+    height: 500px;
+    width: 500px;
+}
+.editDiv{
+    height: 100px;
+    width: 500px;
+    text-align: center;
+}
+label{
+    margin-top:50px;
+}
+.btnEdit{
+    width: 200px;
+    height: 50px;
+}
+input[type="text"]{
+    margin-top: 25px;
+}

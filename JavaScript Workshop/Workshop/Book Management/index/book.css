@@ -1,0 +1,39 @@
+.body_container{
+    background-image: url("Library.jpg");
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.left{  
+    background-color: aquamarine;
+    height: 150px;
+    width:200px;
+    position: absolute;
+    left: 10px;
+}
+ul{
+    list-style: none;
+  }
+
+.middle{
+    background-color: azure; 
+    height: 500px;
+    width: 800px;
+}
+.right{  
+    background-color: aquamarine;
+    height: 150px;
+    width:200px;
+    right:10px;
+    text-align: center;
+    position: absolute;
+}
+.headerEdit{
+    text-align: center;
+    background-color: violet;
+    height: 50px;
+
+}

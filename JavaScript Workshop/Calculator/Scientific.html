@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Calculator1.css">
+        <script src="Calculator.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="cal-container">
+            <div class="header">
+                  Scientific
+            </div>
+            <div class="display-area">
+                <input type="text" id="string" class="display-field"  readonly>
+            </div>
+            <div class="buttons">
+               <button  onclick="dispVal('+')" class="operator">+</button>
+                <button  onclick="dispVal('-')" class="operator">-</button>
+                <button  onclick="dispVal('*')" class="operator">x</button>
+               <button  onclick="dispVal('/')" class="operator">/</button>
+               <button onclick="clr()" class="operator">Clear</button>
+            </div>
+            <div class="buttons">
+            <button onclick="dispVal(1)" class="operator">1</button>
+            <button onclick="dispVal(2)" class="operator">2</button>
+            <button onclick="dispVal(3)" class="operator">3</button>
+            <button onclick="dispVal(4)" class="operator">4</button>
+            <button onclick="dispVal(5)" class="operator">5</button>
+                </div>
+                <div class="buttons">
+                       
+                        <button onclick="dispVal(6)" class="operator">6</button>
+                        <button onclick="dispVal(7)" class="operator">7</button>
+                        <button onclick="dispVal(8)" class="operator">8</button>
+                        <button onclick="dispVal(9)" class="operator">9</button>
+                        <button onclick="dispVal(0)" class="operator">0</button>
+                </div>
+                <div class="buttons">
+                    <button  onclick="squareRoot()" class="operator">sqrt</button>
+                    <button  onclick="square()" class="operator">sq</button>
+                    <button  onclick="cube()" class="operator">cube</button>
+                    <button  onclick="cubeRoot()" class="operatorCube">cuberoot</button>
+                </div>
+                <div class="">
+                        <button onclick="cal()" class="clear">=</button>
+                        <a href="Calulator.html"><button class="clear">Standard</button></a>
+                </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+body{
+    background-image: url("Library.jpg");
+    background-size: cover;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    background-color: violet;
+}
+.left-head{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left:10px;
+    font-weight: bold;
+}
+.mid-head{
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+}
+.right-head{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.innerContainer{
+    background-color: white ;
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.tableEdit{
+    text-align: center;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.btn-edit{
+    height: 50px;
+    width: 200px;
+    background-color: #00D84A;
+    border-radius: 1px;
+    font-weight: bold;
+}

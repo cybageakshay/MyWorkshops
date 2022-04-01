@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="editdelete.css">
+    <script src="../Java Script/BookManage.js"></script>
+    <title>Document</title>
+</head>
+<body>
+        <header>
+                <div class="header-container">
+                    <div class="left-head">
+                        <p>
+                            <a href="../index/index.html">Home</a>
+                        </p>
+                    </div>
+                    <div class="mid-head">
+                            <p>
+                                    <a href="../add book/AddBook.html">AddBook</a>
+                            </p>
+                    </div>
+                    <div class="right-head">
+                            <p>
+                                    <a href="../display/display.html">Display Books</a>
+                                </p>
+                    </div>
+                </div>
+            </header>
+        <div class="container">
+            <div class="edit">
+                    <h3>Edit Book</h3>
+                    <div  class="editDiv">
+                            <label >ID of Book</label><br>
+                            <input type="text" id="name" placeholder="book ID">
+                        </div>
+                        <div class="editDiv">
+                            <label>Name of Book</label><br>
+                            <input type="text" id="bnm" placeholder="book name">
+                        </div>
+                        <div class="editDiv">
+                                <label>Author of Book</label><br>
+                                <input type="text" id="auth" placeholder="author name">
+                            </div>
+                            <div class="editDiv">
+                                    <label>Publication of Book</label><br>
+                                    <input type="text" id="pub" placeholder="publication name">
+                            </div>
+                            <div class="editDiv">
+                                <button class="btnEdit" onclick="editBookHandler()">Submit</button>
+                            </div>
+           
+               
+            </div>
+            <div class="delete">
+                <h3>Delete Book</h3>
+                <div class="delete-edit">
+                        <div  class="deleteDiv">
+                                <label >ID of Book</label><br>
+                                <input type="text" id="name" placeholder="book ID">
+                            </div>
+                </div>
+                <div class="">
+                        <div class="editDiv">
+                                <button class="btnEdit" onclick="deleteBookHandler()">Submit</button>
+                            </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

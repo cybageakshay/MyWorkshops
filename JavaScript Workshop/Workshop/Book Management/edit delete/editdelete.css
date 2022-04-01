@@ -1,0 +1,71 @@
+body{
+    background-image: url("Library.jpg");
+    background-size: cover;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    background-color: violet;
+}
+.left-head{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left:10px;
+    font-weight: bold;
+}
+.mid-head{
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+}
+.right-head{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.edit{
+    background-color: white ;
+    height: 500px;
+    width: 400px;
+    left: 100px;
+    position: absolute;
+    border: 1px solid black;
+    text-align: center;
+}
+.editDiv{
+    height: 75px;
+    width: 400px;
+    text-align: center;
+}
+.btnEdit{
+    width: 200px;
+    height: 50px;
+}
+.delete{
+    background-color: white ;
+    height: 500px;
+    width: 400px;
+    right: 100px;
+    position: absolute;
+    border: 1px solid black;
+    text-align: center;
+}
+.delete-edit{
+    width: 400px;
+    height: 100px;
+    margin-top: 150px;
+}
+.deletediv{
+    height: 100px;
+    width: 400px;
+    text-align: center;
+}

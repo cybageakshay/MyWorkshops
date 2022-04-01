@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="AddBook.css">
+    <script src="../Java Script/BookManage.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="left-head">
+                <p>
+                    <a href="../index/index.html">Home</a>
+                </p>
+            </div>
+            <div class="mid-head">
+                    <p>
+                            <a href="../edit delete/editdelete.html">Edit or Delete</a>
+                    </p>
+            </div>
+            <div class="right-head">
+                    <p>
+                            <a href="../display/display.html">Display Books</a>
+                        </p>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="middle">
+            
+                    <div  class="editDiv">
+                            <label >ID of Book</label><br>
+                            <input type="text" id="name" placeholder="book ID">
+                        </div>
+                        <div class="editDiv">
+                            <label>Name of Book</label><br>
+                            <input type="text" id="bnm" placeholder="book name">
+                        </div>
+                        <div class="editDiv">
+                                <label>Author of Book</label><br>
+                                <input type="text" id="auth" placeholder="author name">
+                            </div>
+                            <div class="editDiv">
+                                    <label>Publication of Book</label><br>
+                                    <input type="text" id="pub" placeholder="publication name">
+                            </div>
+                            <div class="editDiv">
+                                <button class="btnEdit" onclick="addBookHandler()">Submit</button>
+                            </div>
+           
+               
+        </div>
+    </div>
+    <p id="here"></p>
+</body>
+</html>

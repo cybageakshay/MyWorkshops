@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../Java Script/BookManage.js"></script>
+    <link rel="stylesheet" href="display.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="left-head">
+                <p>
+                    <a href="../index/index.html">Home</a>
+                </p>
+            </div>
+            <div class="mid-head">
+                    <p>
+                            <a href="../add book/AddBook.html">Add Book</a>
+                    </p>
+            </div>
+            <div class="right-head">
+                    <p>
+                            <a href="../edit delete/editdelete.html">Edit or Delete</a>
+                        </p>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="innerContainer">
+            <table class="tableEdit" id="idtab">
+                <tr class="tableEdit"><th>Book ID</th></tr>
+                
+            </table>
+        </div>
+        <div class="innerContainer">
+            <table class="tableEdit" id="nametab">
+                <tr> <th> Name</th></tr>
+            </table>
+        </div>
+        <div class="innerContainer">
+            <table class="tableEdit" id="authtab">
+                <tr>  <th>Author</th></tr>
+            </table>
+        </div>
+        <div class="innerContainer">
+            <table class="tableEdit" id="pubtab">
+                <tr>  <th>Publication</th></tr>
+            </table>
+        </div>
+    </div>
+    <div class="btn-container">
+        <button onclick="displayBookHandler()" class="btn-edit"> Display</button>
+    </div>
+</body>
+</html>
