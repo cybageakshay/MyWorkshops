@@ -1,0 +1,9 @@
+.outerdiv{
+    display: flex;
+    justify-content: center;
+}
+.innediv{
+    height: 400px;
+    width:800px;
+    background-color: black;
+}
