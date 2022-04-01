@@ -1,0 +1,56 @@
+.div-container{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image: url("backImg.jfif");
+    background-size: cover;
+}
+.links{
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px #000;
+    height: 200px;
+    width: 200px;
+    margin-right: 5px;
+    position: absolute;
+    left: 15px;
+    text-align: left;
+   
+}
+a{
+    color: antiquewhite;
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px #000;
+    height: 500px;
+    width: 100px;
+    margin-left: 10px;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+}
+.headerEdit{
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px #000;
+    text-align: center;
+    color: antiquewhite;  
+}
+ul{
+    list-style: none;
+  }
+.contentEdit{
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rightbox{
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px #000;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    position: absolute;
+    text-align: left;
+     right: 15px;
+}

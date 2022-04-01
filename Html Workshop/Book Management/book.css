@@ -1,0 +1,55 @@
+.editLink{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+}
+header{
+    text-align: center;
+    background-color: violet;
+    height: 50px;
+
+}
+.bodycontainer{
+    background-image: url("Library.jpg");
+}
+.headerEdit{
+    margin-top: 5px;
+}
+ul{
+  list-style: none;
+}
+li{
+    background-color: darkslateblue;
+    margin-bottom: 10px;
+    margin-right: 35px;
+    border-radius: 5px;
+}
+a{
+    color: black;
+}
+.contentEdit{
+    width: 845px;
+    height: 500px;
+    margin: 100px auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: -150px;
+    margin-left: 150px;
+    background-color: azure;
+    box-shadow:  5px 10px #888888;
+}
+.whereWhy{
+     float: right;
+    margin-top:-600px;
+    width: 26%;
+    text-align: center;
+    margin-right: -5px;
+    z-index: -1;
+    background-color: aquamarine;
+}
+footer{
+    text-align: center;
+    background-color: violet;
+    height: 50px;
+}
