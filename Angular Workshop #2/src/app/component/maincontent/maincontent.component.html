@@ -1,0 +1,60 @@
+<div class="container d-flex justify justify-content-between">
+    <div class="left-container">
+        <h3 class="text center">Movies</h3>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <ul *ngFor="let items of movies">
+                    <li>{{items}}</li><button class="btn btn-primary" (click)="addToWatchList(items)">Watchlist</button>
+                </ul>            </div>
+          </div>
+          <h3>Watchlist</h3>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <ul *ngFor="let items of watchList">
+                    <li>{{items}}</li>
+                </ul>            </div>
+          </div>
+    </div>
+    <div class="right-container">
+        <h3 class="text center">Chores</h3>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">YesterDay</h5>
+              <ul *ngFor="let items of yesterday">
+                  <li>{{items}}</li>
+              </ul>
+            </div>
+          </div><br>
+          <div class="cardStatus">
+            <p class="text center text-success" ng-if="yesterday.length<today.length&&yesterday.length<tomarrow.length">
+              Have an Ice-cream task are done for the day
+            </p>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Today</h5>
+                <ul *ngFor="let items of today">
+                    <li>{{items}}</li>
+                </ul>
+            </div>
+          </div><br>
+          <div class="cardStatus">
+            <p class="text center text-danger" ng-if="today.length>yesterday.length&&today.length>tomarrow.length">
+             Work hard Buddy
+            </p>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Tomorrow</h5>
+              <ul *ngFor="let items of tomarrow">
+                <li>{{items}}</li>
+            </ul>            
+          </div>
+          </div><br>
+          <div class="cardStatus">
+            <p class=" yellow text center " ng-if="tomarrow.length>yesterday.length&&today.length>tomarrow.length">
+             You can do it!!!!!!!!!!!
+            </p>
+          </div>
+    </div>
+</div>

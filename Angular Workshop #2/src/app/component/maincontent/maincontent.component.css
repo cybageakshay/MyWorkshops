@@ -1,0 +1,17 @@
+.left-container{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.right-container{
+    margin-right: 150px;
+    margin-top: 20px;
+}
+.card-title{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.yellow{
+    color:yellowgreen
+}
